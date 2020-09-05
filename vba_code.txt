@@ -1,0 +1,11 @@
+Sub hello(control As IRibbonControl)
+
+Msg = "Hi user, you sucessfully implemented your Add In"
+Style = vbOKOnly
+Title = "Add In example"
+
+Response = MsgBox(Msg, Style, Title)
+
+End Sub
+
+
